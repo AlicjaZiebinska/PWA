@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<!-- część <head> - część dla przeglądarki -->
+<head>
+    <!-- informacja o kodowaniu znaków -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <title>Strona Alicji</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Witaj w aplikacji</h1>
+    </header>
+    <main>
+        <!-- <form> - znacznik formularza -->
+        <form action="">
+            <div class="form_box">
+                <!-- <label> - etykieta pola input (opisuje znacznik input) -->
+                <label for="username">Podaj swoje imie:</label>
+                <input type="text" id="name" placeholder="Wpisz imie" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_box">
+                <!-- <label> - etykieta pola input (opisuje znacznik input) -->
+                <label for="username">Podaj swoje nazwisko:</label>
+                <input type="text" id="surname" placeholder="Wpisz nazwisko" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_box">
+                <label for="pass2">Ile masz lat:</label>
+                <input type="password" id="old" placeholder="podaj wiek" required>
+                <p class="error"></p>
+            </div>
+            <div class="buttons">
+                <input type="reset" value="anuluj" class="reset">
+                <input type="submit" value="wyślij" class="send">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Projekt Alicja Ziębińska WSB Merito 2024</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
