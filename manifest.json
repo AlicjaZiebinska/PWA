@@ -1,0 +1,17 @@
+{
+    "theme_color" : "#f4beeb",
+    "background_color" : "#f8cbf9",
+    "display" : "fullscreen",
+    "scope" : "/",
+    "start_url" : "/PWA/",
+    "name" : "Ala",
+    "short_name" : "Ala",
+    "description" : "Ala's site",
+    "icons" : [
+        {
+            "src" : "./icon.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+    ]
+    }
